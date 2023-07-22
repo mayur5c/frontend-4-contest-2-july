@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/frontend-4-contest-2-june/precache-manifest.251a60e01bb47588c4de5d03163963ca.js"
+  "/frontend-4-contest-2-july/precache-manifest.8a0dcc06b7c626881a3ec0fae45138ec.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/frontend-4-contest-2-june/index.html", {
+workbox.routing.registerNavigationRoute("/frontend-4-contest-2-july/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
